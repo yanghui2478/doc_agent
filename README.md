@@ -58,6 +58,7 @@ doc_agent/
 │
 └── static/
     └── index.html
+---
 #⚙️ 本地运行
 1. 安装依赖
 pip install -r requirements.txt
@@ -73,6 +74,7 @@ python -m uvicorn main:app --reload
 浏览器访问：
 
 http://127.0.0.1:8000
+---
 #🎯 核心功能演示
 文档上传
 
@@ -91,6 +93,7 @@ Prompt 拼接
 大模型生成
 
 实现基于文档内容的精准问答。
+---
 
 #📌 后续优化方向
 多文档知识库
@@ -99,6 +102,7 @@ LangChain Agent
 多用户会话
 Docker 部署
 云端向量数据库
+---
 #👨‍💻 作者
 
 杨晖
